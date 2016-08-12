@@ -21,9 +21,13 @@ pod "RComposeBar"
 ```
 
 ## Screenshots
+
 ![alt tag](https://github.com/rjeprasad/RComposeBar/blob/master/Example/Screenshots/one.png)
+
 ![alt tag](https://github.com/rjeprasad/RComposeBar/blob/master/Example/Screenshots/two.png)
+
 ![alt tag](https://github.com/rjeprasad/RComposeBar/blob/master/Example/Screenshots/three.png)
+
 
 ## Author
 
