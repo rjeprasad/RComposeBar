@@ -20,6 +20,11 @@ it, simply add the following line to your Podfile:
 pod "RComposeBar"
 ```
 
+## Screenshots
+![alt tag](https://github.com/rjeprasad/RComposeBar/blob/master/Example/Screenshots/one.png)
+![alt tag](https://github.com/rjeprasad/RComposeBar/blob/master/Example/Screenshots/two.png)
+![alt tag](https://github.com/rjeprasad/RComposeBar/blob/master/Example/Screenshots/three.png)
+
 ## Author
 
 Rajeev Prasad, rjeprasad@gmail.com
