@@ -1,0 +1,14 @@
+use_frameworks!
+
+target 'RComposeBar_Example' do
+    pod 'RComposeBar', :path => '../'
+    
+    target 'RComposeBar_Tests' do
+        inherit! :search_paths
+        
+        pod 'Specta'
+        pod 'Expecta'
+        pod 'FBSnapshotTestCase'
+        pod 'Expecta+Snapshots'
+    end
+end

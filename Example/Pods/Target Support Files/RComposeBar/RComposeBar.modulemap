@@ -1,0 +1,6 @@
+framework module RComposeBar {
+  umbrella header "RComposeBar-umbrella.h"
+
+  export *
+  module * { export * }
+}

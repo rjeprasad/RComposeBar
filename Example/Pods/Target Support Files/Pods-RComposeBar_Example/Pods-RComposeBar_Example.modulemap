@@ -1,0 +1,6 @@
+framework module Pods_RComposeBar_Example {
+  umbrella header "Pods-RComposeBar_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
