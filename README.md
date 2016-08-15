@@ -137,6 +137,15 @@ Please see the example project for more information
 Most of the visible UI settings can be customizable to suit your needs and to match the theme colors of your app.
 See inline dicumentioan of the `RComposeBar.h` file
 
+e.g. some sample customization settinng - more available in inline documentation
+
+```objective-c
+_composeBar.topLineColor = [UIColor lightGrayColor];
+_composeBar.bottomLineColor = [UIColor lightGrayColor];
+_composeBar.textBoxBorderColor = [UIColor redColor];
+_composeBar.font =  = [UIFont systemFontOfSize:20];
+```
+
 ## Screenshots
 
 ![alt tag](https://github.com/rjeprasad/RComposeBar/blob/master/Example/Screenshots/one.png)
