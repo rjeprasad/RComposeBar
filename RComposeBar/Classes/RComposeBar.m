@@ -176,10 +176,10 @@ static CGFloat locHeight = 25.0;
     [self setRightButtonTypeLocal];
 }
 
--(void)setRightButtonWithTag:(NSInteger)tag text:(NSString *)text backToKBYText:(NSString *)kbText {
+-(void)setRightButtonWithTag:(NSInteger)tag title:(NSString *)title backToKBTitle:(NSString *)kbTitle {
     _alternateRightTag = tag;
-    _alternateRightText = text;
-    _alternateKBText = kbText;
+    _alternateRightText = title;
+    _alternateKBText = kbTitle;
     [self setRightButtonTypeLocal];
 }
 
@@ -348,7 +348,6 @@ static CGFloat locHeight = 25.0;
     CGFloat maxTextHeight = maxHeight - (topLineHeight + bottomLineHeight + topBottomGap + topBottomGap + _topViewHeight.constant + _locViewHeight.constant + _separatorHeight.constant);
     
     CGFloat curTextHeight = [self textHeight];
-    CGFloat curViewHeight = topLineHeight + bottomLineHeight + topBottomGap + topBottomGap + curTextHeight + _topViewHeight.constant + _locViewHeight.constant + _separatorHeight.constant;
     
     CGFloat textHeight = curTextHeight;
     if (curTextHeight > maxTextHeight) {
@@ -595,7 +594,6 @@ static CGFloat locHeight = 25.0;
     
     CGFloat x = 5.0;
     CGFloat w = (topHeight-10)*4/3;
-    NSInteger i = 0;
     
     NSInteger itemCount = 0;
     if ([_dataSource respondsToSelector:@selector(numberOfItemsInComposeBar)]) {
@@ -701,7 +699,7 @@ static CGFloat locHeight = 25.0;
         else {
             width = 44 * size.height / size.width + 16;
         }
-        if (width > 100) width == 100;
+        if (width > 100) width = 100;
         return width;
     }
     return 16;
