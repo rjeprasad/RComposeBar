@@ -3,8 +3,8 @@ s.name             = 'RComposeBar'
 s.version          = '1.0.1'
 s.summary          = 'Compose bar view suitable for chat applications'
 s.description    = <<-DESC
-Userfriendly compose bar implemention to use in chat/im applications.
-It is configurable to resize with text and other usable inputs like images/videos/location etc.
+Userfriendly compose bar implemention to use in chat/IM applications.
+It is configurable to work with vriouse input types like text, images, videos, location etc.
 Heights and other relavant UIs will be configure based on user/developer inputs and most of the visible fetures are customizable.
 DESC
 
@@ -15,7 +15,7 @@ s.source           = { :git => 'https://github.com/rjeprasad/RComposeBar.git', :
 s.source_files = 'RComposeBar/Classes/*'
 s.preserve_paths = 'LICENSE', 'README.md'
 s.requires_arc   = true
-s.ios.deployment_target = '8.3'
+s.ios.deployment_target = '8.0'
 s.platform       = :ios
 
 end

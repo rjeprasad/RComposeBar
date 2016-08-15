@@ -2,7 +2,7 @@
  RComposeBar.m
  The MIT License (MIT)
  Created by Rajeev Prasad on 11/6/16.
- Copyright © 2016 Rajeev Prasad <rjeprasad@gmail.com>. All rights reserved.
+ Copyright © 2016 Rajeev Prasad <rjeprasad@gmail.com>.
  
  Permission is hereby granted, free of charge, to any person obtaining a copy
  of this software and associated documentation files (the "Software"), to deal

@@ -95,6 +95,7 @@ static NSString *kMine = @"mine";
 #pragma mark setup compose bar
 -(void)setupComposeBar {
     if (!_composeBar) {
+//        [_toolbar removeConstraint:_toolbarHeight];
         _composeBar = [[RComposeBar alloc] initWithContainer:_toolbar delegate:self];
         _composeBar.delegate = self;
         _composeBar.dataSource = self;
